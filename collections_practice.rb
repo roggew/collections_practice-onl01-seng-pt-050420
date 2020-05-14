@@ -34,7 +34,12 @@ end
   end 
   
   def add_s(array)
-    array.collect {|x| x + "s"}
+    array.each_with index do |x, index|
+      if index == 1 
+        return x  
+      else
+        return x + "s"
+      end
   end
  
   
