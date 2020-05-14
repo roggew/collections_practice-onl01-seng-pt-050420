@@ -18,3 +18,9 @@ end
   def reverse_array(array)
     array.reverse
   end
+  
+  def kesh_maker(array)
+    array.each do |x|
+      x[2] = "$"
+    end
+  end
