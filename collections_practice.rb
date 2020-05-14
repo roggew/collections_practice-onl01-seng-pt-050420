@@ -34,7 +34,7 @@ end
   end 
   
   def add_s(array)
-    array.each_with index do |x, index|
+    array.each_with_index do |x, index|
       if index == 1 
         return x  
       else
