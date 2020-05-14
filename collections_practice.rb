@@ -34,10 +34,10 @@ end
   end 
   
   def add_s(array)
-    array.collect do |x, index|
-      if index == 1 
+    array.collect do |x|
+      if x==array[1] 
          x  
-      elsif index !=1
+      else x !=array[1]
        x + "s"
       end
   end
