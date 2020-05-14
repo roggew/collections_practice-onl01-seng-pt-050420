@@ -30,8 +30,7 @@ end
   end
   
   def sum_array(array)
-    sum = 0  
-    array.map!{|x| sum+=x}
+   array.inject{|sum, x| sum + x}
   end 
   
   
