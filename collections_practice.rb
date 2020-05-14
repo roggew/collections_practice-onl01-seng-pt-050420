@@ -33,6 +33,16 @@ end
    array.inject{|sum, x| sum + x}
   end 
   
+  def add_s(array)
+    array.collect do |x|
+  if 
+    x == x[1]
+    x
+  else
+    x != x[1]
+    x +"s"
+  end
+end
   
   
   
