@@ -31,7 +31,7 @@ end
   
   def sum_array(array)
     sum = 0  
-    array.map{|x| sum+=x}
+    array.map!{|x| sum+=x}
   end 
   
   
